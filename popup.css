@@ -1,0 +1,43 @@
+body {
+    background-color: #0A2640;
+    color: whitesmoke;
+}
+
+.main_div{
+    width: 300px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 1rem 2rem;
+
+}
+.header{
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+.put{
+    /* background-color: rgb(128, 128, 128); */
+    /* width:100px; */
+    color: black;
+    border-radius: 5px;
+}
+.btn{
+    /* width: 100px; */
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #facc15;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.audio-container {
+    margin-top: 10px;
+}
+
+audio {
+    margin-top: 5px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <title>Welcome to my extension</title>
+</head>
+<body>
+<div class="main_div">
+    <span class="header">Meaning to words</span>
+    <!-- Input field -->
+    <input type="text" id="myInput" class="put" placeholder="Enter a word">
+    
+    <!-- Button -->
+    <button type="button" id="myButton" class="btn">Click to response!</button>
+    
+</div>
+
+<div class="audio-container" id="audioContainer">
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+</div>
+    <!-- Result display -->
+    <div class="result-container">
+        <div class="meaning" id="englishMeaning"></div>
+        <div class="meaning" id="hindiMeaning"></div>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
